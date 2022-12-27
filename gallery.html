@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>pvcjunkie - Gallery</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <!-- students must convert divs to semantic tags -->
@@ -10,22 +10,33 @@
 	<div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
+            <header class="grid-con">
+                <div id="header-logo" class="box-color">
+                    <a href="index.html"><img src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo"></a>
                 </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
-            </div>
+                <nav id="main-nav" class="box-color">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="gallery.html">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav id="socials" class="box-color">
+                    <a href="https://www.instagram.com/pvcjunkie/"><img src="images/icon-insta-logo-pink.png" alt="instagram logo"></a>
+                    <img src="images/icon-mfc-logo-pink.png" alt="myfigurecollection logo">
+                </nav>
+            </header>
         </div> 
 
         <main>
 
             <div id="gallery-hero-con">
                 <div class="grid-con">
-                    <div id="gallery-text" class="box-color">
-                    </div>
+                    <article id="gallery-text" class="box-color">
+                    </article>
                     <div id="gallery-controls">
                         <span class="dot"></span>
                         <span class="dot"></span>
@@ -34,69 +45,82 @@
                 </div>
             </div>
      
-            <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
+            <div id="gallery" class="grid-con">
+                <h2>Gallery</h2>
+                <article class="gallery-box">
+                    <img src="images/gallery-r1c1-effie-desk.jpg" alt="effie trading figure">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r1c2-aries-desk.jpg" alt="black aries figure">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r1c3-lottekotobukiya-desk.jpg" alt="lotte figure kotobukiya">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r2c1-hiiragis-desk.jpg" alt="tsukasa and kagami hiiragi prize figures">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r2c2-remiflan-desk.jpg" alt="remilia and flandre prize figures">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r2c3-elin-desk.jpg" alt="elin sorcerer figure">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r3c1-leukothea-desk.jpg" alt="leukothea figure">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r3c2-kuroneko-desk.jpg" alt="kuroneko figure wallpaper background">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r3c3-kuroneko-desk.jpg" alt="kuroneko with flowers">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r4c1-lotte-cmcorp-desk.jpg" alt="cm corp lotte figure">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r4c2-meruru-desk.jpg" alt="meruru and alpha omega prize figures">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r4c3-maryan-desk.jpg" alt="magical maryan figure close-up">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r5c1-elin-desk.jpg" alt="elin sorcerer figure close-up">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r5c2-konata-desk.jpg" alt="konata izumi cat-ear nendoroid">
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-r5c3-maryan-desk.jpg" alt="magical maryan figure">
+                </article>
             </div>         
         </main>
 
         <div id="footer-con">
-            <div class="grid-con" id="footer">
+            <footer id="footer" class="grid-con">
                 <div id="footer-logo" class="box-color">
+                    <a href="index.html"><img src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo"></a>
                 </div>
-                <div id="footer-nav" class="box-color">
-                </div>
+                <nav id="footer-nav" class="box-color">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active" href="gallery.html">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
                 <div id="footer-newsletter1" class="box-color">
                 </div>
                 <div id="footer-newsletter2" class="box-color">
                 </div>
-                <div id="footer-social" class="box-color">
-                </div>
-            </div>
+                <nav id="footer-social" class="box-color">
+                    <ul>
+                        <li><a href="https://www.instagram.com/pvcjunkie/"><img src="images/icon-insta-logo-pink.png" alt="instagram logo"></a></li>
+                        <li><a href="#"><img src="images/icon-mfc-logo-pink.png" alt="myfigurecollection logo"></a></li>
+                    </ul>
+                </nav>
+            </footer>
         </div>
 
     </div><!--end container-->  

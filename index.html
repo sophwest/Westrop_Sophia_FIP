@@ -2,74 +2,104 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<title>pvcjunkie - Home</title>
 <link href="css/main.css" rel="stylesheet">
 </head>
-<!-- students must convert divs to semantic tags -->
+
 <body>
 	<div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <div id="header-box1" class="box-color">
+            <header class="grid-con">
+                <div id="header-logo" class="box-color">
+                    <img src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo">
                 </div>
-                <div id="main-nav" class="box-color">
-                </div>
-                <div id="header-box2" class="box-color">
-                </div>
-            </div>
+                <nav id="main-nav" class="box-color">
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav id="socials" class="box-color">
+                    <ul>
+                        <li><a href="https://www.instagram.com/pvcjunkie/"><img src="images/icon-insta-logo-pink.png" alt="instagram logo"></a></li>
+                        <li><a href="#"><img src="images/icon-mfc-logo-pink.png" alt="myfigurecollection logo"></a></li>
+                    </ul>
+                </nav>
+            </header>
         </div> 
 
         <main>
-            <div class="grid-con" id="hero">
-                <div id="hero-text" class="box-color">
-                </div>
-                <img src="https://via.placeholder.com/674x582" alt="image" id="hero-image">
+            <div id="hero" class="grid-con">
+                <article id="hero-text" class="box-color">
+                </article>
+                <img src="images/hero-hm-desk.jpg" alt="Black Aries" id="hero-image">
             </div>  
 
-            <div class="grid-con" id="products">
-                <h2>Blandit At Tuctor</h2>
-                <div class="product-box" id="product1">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="product-box" id="product2">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
-                <div class="product-box" id="product3">
-                    <img src="https://via.placeholder.com/536x242" alt="image">
-                </div>
+            <div id="latest-posts" class="grid-con">
+                <h2>Latest Posts</h2>
+                <article id="post1" class="product-box">
+                    <img src="images/post-1-hm-desk.jpg" alt="Sticky figure bath">
+                </article>
+                <article id="post2" class="product-box">
+                    <img src="images/post-2-hm-desk.jpg" alt="Lucky star collection">
+                </article>
+                <article id="post3" class="product-box">
+                    <img src="images/post-3-hm-desk.jpg" alt="Aries grail figure">
+                </article>
             </div>
 
-            <h2 id="about-title">Blandit At Tuctor</h2>
+            <h2 id="about-title">About Me</h2>
             <div id="about-con">
-                <div class="grid-con" id="about">
-                    <div id="about-text" class="box-color">
-                    </div>
-                    <img src="https://via.placeholder.com/674x700" alt="image" id="about-image">
-                </div>
+                <article id="about" class="grid-con">
+                    <article id="about-text" class="box-color">
+                    </article>
+                    <img src="images/about-portrait-hm-desk.png" alt="self portrait" id="about-portrait">
+                    <img src="images/about-fullbody-hm-desk.png" alt="self portrait full body" id="about-full">
+                    <img src="images/about-animation.gif" alt="dancing gif" id="about-animation">
+                </article>
             </div>
             
-            <div class="grid-con" id="contact">
+            <h2 id="about-title">Let's get in touch!</h2>
+            <div id="contact" class="grid-con">
                 <div id="contact-text" class="box-color">
                 </div>
                 <div id="contact-form" class="box-color">
                 </div>
+                <img src="images/contact-lotte-hm-desk.jpg" alt="lotte figure transparent" id="contact-image">
             </div> 
         </main>
 
         <div id="footer-con">
-            <div class="grid-con" id="footer">
+            <footer id="footer" class="grid-con">
                 <div id="footer-logo" class="box-color">
+                    <img src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo">
                 </div>
-                <div id="footer-nav" class="box-color">
-                </div>
+                <nav id="footer-nav" class="box-color">
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
                 <div id="footer-newsletter1" class="box-color">
                 </div>
                 <div id="footer-newsletter2" class="box-color">
                 </div>
-                <div id="footer-social" class="box-color">
-                </div>
-            </div>
+                <nav id="footer-social" class="box-color">
+                    <ul>
+                        <li><a href="https://www.instagram.com/pvcjunkie/"><img src="images/icon-insta-logo-pink.png" alt="instagram logo"></a></li>
+                        <li><a href="#"><img src="images/icon-mfc-logo-pink.png" alt="myfigurecollection logo"></a></li>
+                    </ul>
+                </nav>
+            </footer>
         </div>
 
     </div> 
