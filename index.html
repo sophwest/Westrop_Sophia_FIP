@@ -81,8 +81,33 @@
                 <article id="contact-text" class="box-color">
                     <p>Feel free to contact me about anything! I love connecting with other enthusiasts. I will usually respond within three business days.</p>
                 </article>
-                <div id="contact-form" class="box-color">
-                </div>
+                <section id="contact-form" class="box-color">
+                    <h2 class="hidden">Contact Form</h2>
+
+                    <form id="mainform" method="post" action="#">
+            
+                        <!-- <label for="name">First Name: </label> -->
+                        <input id="name" name="name" type="text" placeholder="Name">
+            
+                        <!-- <label for="email">Email Address: </label> -->
+                        <input id="email" name="email" type="email" placeholder="Email address">
+
+                        <!-- <label for="subject">Subject: </label> -->
+                            <select>
+                                <option value="general">General Inquiry</option>
+                                <option value="buysell">Buying/Selling</option>
+                                <option value="figure">Figure Specific</option>
+                                <option value="merch">Other Anime Merchandise</option>
+                                <option value="care">Care and Display</option>
+                            </select>
+                                
+                        <!-- <label for="message">Your Message: </label> -->
+                        <textarea id="message" name="message">Your message</textarea>
+            
+                        <input type="submit" value="send" class="button">
+            
+                    </form>
+                </section>
                 <img id="contact-image" src="images/contact-lotte-hm-desk.jpg" alt="lotte figure transparent">
             </section> 
         </main>
@@ -102,10 +127,14 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                <div id="footer-newsletter1" class="box-color">
-                </div>
-                <div id="footer-newsletter2" class="box-color">
-                </div>
+                <div id="footer-newsletter" class="box-color">
+                    <form id="newsletter" method="post" action="#">
+                        <label for="news-email">Newsletter - Sign-up</label>
+                        <input id="news-email" name="email" type="email" placeholder="Email address">  
+                        <input type="submit" value="send" class="button">
+                    </form>    
+                </div> 
+                
                 <nav id="footer-social" class="box-color">
                     <ul>
                         <li><a href="https://www.instagram.com/pvcjunkie/"><img src="images/icon-insta-logo-pink.png" alt="instagram logo"></a></li>
