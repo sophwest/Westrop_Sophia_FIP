@@ -51,7 +51,9 @@
                     <p>pvcjunkie is a website dedicated to my hobby and love for collecting anime figures and merchandise. I share photos, blog about the hobby, and post news about upcoming figures!</p>
                 </article>
                 <img src="images/hero-hm-desk.jpg" alt="Black Aries" id="hero-image">
-                <a class="button" href="gallery.html"><h3>View Gallery</h3></a>
+                <div class="button">
+                    <a href="gallery.html"><h3>View Gallery</h3></a>
+                </div>
             </section>  
 
             <section id="latest-posts" class="grid-con">
@@ -59,7 +61,7 @@
                 <article id="post1" class="blog-box">
                     <img src="images/post-1-hm-desk.jpg" alt="Sticky figure bath">
                     <h3 class="purple-title">BLOG: Washing sticky old figures</h3>
-                    <p>My 2005 Street Fighter Effie trading figure has been sticky for a while, so I though I'd give her a wash.</p>
+                    <p>My 2005 Street Fighter Effie trading figure has been sticky for a while, so I thought I'd give her a wash.</p>
                 </article>
                 <article id="post2" class="news-box">
                     <img src="images/post-2-hm-desk.jpg" alt="Lucky star collection">
@@ -81,12 +83,21 @@
                         <h3 class="hidden">About description</h3>
                         <p>I'm a 25 year old full time student and artist on the side. I've been collecting figures since I was 13 years old in 2010. I now have 81 figures and counting, as well as tons more merchandise. Figure collecting brings me a lot of joy and excitement, and so I made this site to share that.</p>
                     </article>
-                    <img src="images/about-portrait-hm-desk.png" alt="self portrait" id="about-portrait">
-                    <img src="images/about-fullbody-hm-desk.png" alt="self portrait full body" id="about-full">
-                    <img src="images/about-animation.gif" alt="dancing gif" id="about-animation">
+                    <div id="about-portrait">
+                        <img src="images/about-portrait-hm-desk.png" alt="self portrait">
+                    </div>
+                    <div id="about-full">
+                        <img src="images/about-fullbody-hm-desk.png" alt="self portrait full body">
+                    </div>
+                    <div id="about-animation">
+                        <img src="images/about-animation.gif" alt="dancing gif">
+                    </div>
+                    <div class="button">
+                        <a href="#"><h3>View About</h3></a>
+                    </div>
                 </section>
-                <a class="button" href="#"><h3>View About</h3></a>
             </div>
+            
             
             <section id="contact" class="grid-con">
                 <h2 id="contact-title">Let's get in touch!</h2>
@@ -118,7 +129,7 @@
                         <!-- <label for="message">Your Message: </label> -->
                         <textarea id="message" name="message">Your message</textarea>
             
-                        <input type="submit" value="send" class="button">
+                        <input type="submit" value="send">
             
                     </form>
                 </section>
@@ -147,7 +158,7 @@
                     <form id="newsletter" method="post" action="#">
                         <label for="news-email">Newsletter - Sign-up</label>
                         <input id="news-email" name="email" type="email" placeholder="Email address">  
-                        <input type="submit" value="send" class="button">
+                        <input type="submit" value="send">
                     </form>    
                 </aside> 
                 

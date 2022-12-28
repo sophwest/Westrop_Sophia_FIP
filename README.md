@@ -21,7 +21,7 @@ All photography and the namesake are not for use.
 12/23/2022 - Finally recovered from getting my butt kicked by COVID for the first time! Finished all working files and generated assets for site
 12/24/2022 - Added files to repo, edited readme to reflect the whole journey of the FIP
 12/26/2022 - Hunkered down to code and panicked at how much time I lost and had left. Was filled with determination, and Christmas chocolate. Began to code HTML for the desktop pages, putting in semantic tagging and populated content.
-12/27/2022 - Continued to work on HTML on desktop pages, added contact form and newsletter form. Began CSS for desktop pages.
+12/27/2022 - Continued to work on HTML on desktop pages, added contact form and newsletter form. Began CSS for desktop pages- gave everything it's colours and what styling I could. Tried to fix issues I was having with elements in the layout. 
 
 ## Credits
 
