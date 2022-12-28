@@ -119,6 +119,8 @@ you work on and the intended audience */
 	grid-column: 1/3;
 	background-color: #85CBC3;
 	display: flex;
+	color: #fff;
+	width: 260px;
 }
 
 .button a {
@@ -274,6 +276,47 @@ you work on and the intended audience */
 
 #contact-image {
 	grid-column: 3/5;
+}
+
+/* form elements */
+.form-style {
+	font-family: inherit;
+	font-size: 26px;
+	color: #FDC7C7;
+	border: none;
+	margin-left: 20px;
+	margin-top: 16px;
+	padding: 16px;
+}
+
+#name, #email {
+	width: 558px;
+}
+
+select {
+	background-color: #fff;
+	width: 590px;
+}
+
+textarea { 
+	width: 558px;
+	height: 190px;
+	max-width: 558px;
+	max-height: 190px;
+}
+
+.form-button {
+	font-family: inherit;
+	font-size: 26px;
+	background-color: #85CBC3;
+	display: flex;
+	color: #fff;
+	width: 220px;
+	height: 67px;
+	border: none;
+	margin-top: 55px;
+	margin-bottom: 25px;
+	margin-left: 20px;
 }
 
 /*Common page elements  */
