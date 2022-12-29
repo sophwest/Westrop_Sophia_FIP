@@ -2,73 +2,128 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+</style>
+<title>pvcjunkie - Home</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
-<!-- students must convert divs to semantic tags -->
+
 <body>
+    <h1 class="hidden">pvcjunkie Homepage</h1>
 	<div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
-                 <div id="mobile-nav">
+            <header id="main-header" class="grid-con">
+                <img src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo" id="header-logo">
+                 <nav id="mobile-nav">
+                    <h2 class="hidden">Main Navigation</h2>
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
-                 </div>
-            </div>    
+                 </nav>
+            </header>    
         </div> 
 
         <main>
             <div id="hero-con">
-                <div class="grid-con">
-                    <div id="hero-text" class="box-color">
-                    </div>
-                </div>
+                <section class="grid-con">
+                    <h2 class="hidden">Hero Section</h2>
+                    <article id="hero-text" class="box-color">
+                        <h3>Welcome to the place where I share my love for figure collecting!</h3>
+                        <p>pvcjunkie is a website dedicated to my hobby and love for collecting anime figures and merchandise. I share photos, blog about the hobby, and post news about upcoming figures!</p>
+                    </article>
+                </section>
             </div>
 
             <div id="image-slider-con">
-                <h2>Blandit At Tuctor</h2>
-                <img src="https://via.placeholder.com/428x240" alt="image">
-                <!-- ascii symbols for <> -->
-                <span id="mobile-slider-left">&#60</span>
-                <span id="mobile-slider-right">&#62</span>
+                <section class="box-color">
+                    <h2>Latest Posts</h2>
+                    <article id="post1" class="blog-box">
+                        <img src="images/post-1-hm-mob.jpg" alt="Sticky figure bath">
+                        <!-- ascii symbols for <> -->
+                        <span id="mobile-slider-left">&#60;</span>
+                        <span id="mobile-slider-right">&#62;</span>
+                        <h3 class="purple-title">BLOG: Washing sticky old figures</h3>
+                        <p>My 2005 Street Fighter Effie trading figure has been sticky for a while, so I thought I'd give her a wash.</p>
+                    </article>
+                </section>
             </div>
 
             <div id="about-us-con">
-                <h2>Blandit At Tuctor</h2>   
+                <h2>About Me</h2>   
                     <div id="about-us-text-con">     
                         <div class="grid-con">
-                            <div id="about-us-text" class="box-color">
-                            </div>
+                            <article id="about-us-text" class="box-color">
+                                <h3>All about pvcjunkie</h3>
+                                <p>I'm a 25 year old full time student and artist on the side. I've been collecting figures since I was 13 years old in 2010. I now have 81 figures and counting, as well as tons more merchandise. Figure collecting brings me a lot of joy and excitement, and so I made this site to share that.</p>
+                            </article>
                         </div>      
                     </div>  
-                    <div class="grid-con" id="about-us-photos">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                        <img src="https://via.placeholder.com/350x350" alt="image" class="about-us-photo">
-                    </div>         
+                    <section class="grid-con" id="about-me-photos">
+                        <h3 class="hidden">About section images</h3>
+                        <img src="images/about-portrait-hm-mob.jpg" alt="self portrait" class="about-us-photo">
+                        <img src="images/about-animation.gif" alt="dancing gif" class="about-us-photo">
+                        <img src="images/about-fullbody-hm-mob.jpg" alt="self portrait full body" class="about-us-photo">
+                    </section>         
             </div>
 
             <div id="contact-us-con">
-                <div class="grid-con">
-                    <div id="contact-text" class="box-color">
-                    </div>
-                    <div id="contact-form" class="box-color">
-                    </div>
-                </div>
+                <section class="grid-con">
+                    <h2 class="hidden">Contact section</h2>
+                    <article id="contact-text" class="box-color">
+                        <h2 id="contact-title">Let's get in touch!</h2>
+                        <p>Feel free to contact me about anything! I love connecting with other enthusiasts. I will usually respond within three business days.</p>
+                    </article>
+                    <section id="contact-form" class="box-color">
+                        <h2 class="hidden">Contact Form</h2>
+
+                        <form id="mainform" method="post" action="#">
+                
+                            <label class="hidden" for="name">First Name: </label>
+                            <input class= "form-style" id="name" name="name" type="text" placeholder="Name">
+                
+                            <label class="hidden" for="email">Email Address: </label>
+                            <input class= "form-style" id="email" name="email" type="email" placeholder="Email address">
+
+                            <label class="hidden" for="subject">Subject: </label>
+                                <select class= "form-style" id="subject">
+                                    <option value="default">Subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="buysell">Buying/Selling</option>
+                                    <option value="figure">Figure Specific</option>
+                                    <option value="merch">Other Anime Merchandise</option>
+                                    <option value="care">Care and Display</option>
+                                </select>
+                                    
+                            <label class="hidden" for="message">Your Message: </label>
+                            
+                            <textarea class= "form-style" id="message" name="message">Your message</textarea>
+                
+                            <input class="form-button" type="submit" value="Submit">
+                        </form>
+                    </section>
+                </section>
             </div>
         </main>
 
         <div id="footer-con">
-            <div class="grid-con">
-                <div id="footer-box">
+            <footer class="grid-con">
+                <div id="footer-logo">
+                    <img class="logo" src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo">
                 </div>
-                <div id="footer-newsletter">
-                </div>
-            </div>
+                <aside id="footer-newsletter">
+                    <h3 class="hidden">Newsletter Sign-Up</h3>
+                    <form id="newsletter" method="post" action="#">
+                        <label for="news-email">Newsletter - Sign-up</label>
+                        <input id="news-email" name="email" type="email" placeholder="Email address">
+                        <input id="signup" type="submit" value="Sign Up">
+                    </form>
+                </aside>
+            </footer>
         </div>
 
     </div>
