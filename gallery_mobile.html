@@ -2,29 +2,39 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Web Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+</style>
+<title>pvcjunkie - Gallery</title>
 <link href="css/main-mobile.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <!-- students must convert divs to semantic tags -->
+
 	<div id="container">
         
         <div id="header-con">
-            <div id="main-header" class="grid-con">
-                <img src="https://via.placeholder.com/186x80" alt="image" id="header-logo">
-                 <div id="mobile-nav">
+            <header id="main-header" class="grid-con">
+                <img src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo" id="header-logo">
+                 <nav id="mobile-nav">
+                    <h2 class="hidden">Main Navigation</h2>
                     <span class="burger"></span>
                     <span class="burger"></span>
                     <span class="burger"></span>
-                 </div>
-            </div>    
+                 </nav>
+            </header>    
         </div> 
 
         <main>
             <div id="hero-gallery-con">
                 <div class="grid-con">
-                    <div id="hero-gallery-text" class="box-color">
-                    </div>
+                    <article id="hero-gallery-text" class="box-color">
+                        <h2>Photography Gallery</h2>
+                        <p>I use a Canon EOS Rebel XSI to take my photos and I fix them up in Adobe Photoshop.</p>
+                        <p>When I'm not photographing my figures, I love taking photos of creepy places!</p>
+                    </article>
                     <div id="gallery-controls">
                         <span class="dot"></span>
                         <span class="dot"></span>
@@ -33,38 +43,74 @@
                 </div>
             </div>
 
-            <div class="grid-con" id="gallery">
-                <h2>Blandit At Tuctor</h2>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-                <div class="gallery-box">
-                    <img src="https://via.placeholder.com/388x242" alt="image">
-                </div>
-            </div>              
+            <section class="grid-con" id="gallery">
+                <h2>Full Gallery</h2>
+                
+                <article class="gallery-box">
+                    <img src="images/gallery-img1-effie-mob.jpg" alt="effie trading figure">
+                    <div class="text-con">
+                        <h2 class="img-text">Effie</h2>
+                        <h3 class="img-text">Street Fighter III</h3>
+                        <h3 class="img-text">Yamato</h3>
+                    </div>
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-img2-aries-mob.jpg" alt="black aries figure">
+                    <div class="text-con">
+                        <h2 class="img-text">Black Aries</h2>
+                        <h3 class="img-text">Djibril</h3>
+                        <h3 class="img-text">Alter</h3>
+                    </div>
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-img3-lotte-mob.jpg" alt="lotte figure kotobukiya">
+                    <div class="text-con">
+                        <h2 class="img-text">Astarotte Ygvar</h2>
+                        <h3 class="img-text">Astarotte no Omocha!</h3>
+                        <h3 class="img-text">Kotobukiya</h3>
+                    </div>
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-img4-hiiragis-mob.jpg" alt="tsukasa and kagami hiiragi prize figures">
+                    <div class="text-con">
+                        <h2 class="img-text">Kagami & Tsukasa</h2>
+                        <h3 class="img-text">Lucky☆Star</h3>
+                        <h3 class="img-text">SEGA</h3>
+                    </div>
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-img5-remiflan-mob.jpg" alt="remilia and flandre prize figures">
+                    <div class="text-con">
+                        <h2 class="img-text">Remilia and Flandre</h2>
+                        <h3 class="img-text">Touhou Project</h3>
+                        <h3 class="img-text">SEGA</h3>
+                    </div>
+                </article>
+                <article class="gallery-box">
+                    <img src="images/gallery-img6-elin-mob.jpg" alt="elin sorcerer figure">
+                    <div class="text-con">
+                        <h2 class="img-text">Elin Sorcerer</h2>
+                        <h3 class="img-text">TERA Online</h3>
+                        <h3 class="img-text">Arcadia</h3>
+                    </div>
+                </article>
+            </section>              
         </main>
 
         <div id="footer-con">
-            <div class="grid-con">
-                <div id="footer-box">
+            <footer class="grid-con">
+                <div id="footer-logo">
+                    <a href="index.html"><img class="logo" src="images/pvcjunkie-logo-3.svg" alt="pvcjunkie logo"></a>
                 </div>
-                <div id="footer-newsletter">
-                </div>
-                <div id="footer-newsletter2">
-                </div>
-            </div>
+                <aside id="footer-newsletter">
+                    <h3 class="hidden">Newsletter Sign-Up</h3>
+                    <form id="newsletter" method="post" action="#">
+                        <label for="news-email">Newsletter - Sign-up</label>
+                        <input id="news-email" name="email" type="email" placeholder="Email address">
+                        <input id="signup" type="submit" value="Sign Up">
+                    </form>    
+                </aside> 
+            </footer>
         </div>
     </div> 
 </body>
