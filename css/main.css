@@ -60,6 +60,7 @@ you work on and the intended audience */
 	padding-right: 140px;
 }
 
+/* header */
 #header-con {
 	background-color: #FFEAF0;
 	padding-top: 10px;
@@ -68,14 +69,17 @@ you work on and the intended audience */
 
 #header-logo {
 	grid-column: 1/3;
+	margin-left: 55px;
 }
 
 .logo { 
 	height: 80px; 
 }
 
+/* header nav */
 #main-nav {
 	grid-column: 3/11;
+	margin-top: 14px;
 }
 
 .nav li {
@@ -95,13 +99,15 @@ you work on and the intended audience */
 .nav a:hover { 
 	color:#6F538C;
 }
-	
+
+/* active page nav styling */
 #main-nav li a.active {
 	padding-bottom: 5px;
 	border-bottom: 3px solid #fff;
 	font-weight: bold;
 }
 
+/* social media links/icons */
 #socials {
 	grid-column: 11/-1;
 }
@@ -115,12 +121,14 @@ you work on and the intended audience */
 	padding-right: 25px; 
 }
 
+/* some common element class styles */
 .button {
 	grid-column: 1/3;
 	background-color: #85CBC3;
 	display: flex;
 	color: #fff;
 	width: 260px;
+	justify-content: center;
 }
 
 .button a {
@@ -139,13 +147,8 @@ you work on and the intended audience */
 	font-size: 48px;
 }
 
-#footer-newsletter label {
-	color:#E16388;
-	font-size: 28px;
-}
-
 /* Specific to index page desktop  */
-
+/* hero section */
 #hero {
 	margin-top: 100px;
 }
@@ -169,6 +172,7 @@ you work on and the intended audience */
 	grid-column: 8/-1;
 }
 
+/* posts section */
 #latest-posts {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -205,6 +209,7 @@ you work on and the intended audience */
 	background-color: #B5EAD8;
 }
 
+/* about section */
 #about-con {
 	background-color: #FDC7C7;
 	padding-top: 100px;
@@ -251,9 +256,11 @@ you work on and the intended audience */
 	top: 414px;
 }
 
+/* contact section */
 #contact {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	position: relative;
 }
 
 #contact-title {
@@ -276,6 +283,8 @@ you work on and the intended audience */
 
 #contact-image {
 	grid-column: 3/5;
+	position: absolute;
+	bottom: -80px;
 }
 
 /* form elements */
@@ -320,7 +329,7 @@ textarea {
 }
 
 /*Common page elements  */
-
+/* footer */
 #footer-con {
 	background-color: #FFEAF0;
 	padding-top: 50px;
@@ -329,24 +338,63 @@ textarea {
 
 #footer-logo {
 	grid-column: 1/3;
+	margin-left: 55px;
 }
 
 #footer-nav {
-	grid-column: 3/-1;
+	grid-column: 4/-1;
 	margin-bottom: 100px;
 }
 
+/* newsletter signup */
 #footer-newsletter {
 	grid-column: 1/7;
+	position: relative;
 }
 
+#footer-newsletter label {
+	font-size: 28px;
+	color: #E16388;
+}
+
+#news-email {
+	display: block;
+	font-family: inherit;
+	font-size: 26px;
+	color: #FDC7C7;
+	border: none;
+	margin-top: 16px;
+	padding-left: 20px;
+	width: 536px;
+	height: 80px;
+}
+
+#signup {
+	font-family: inherit;
+	font-size: 26px;
+	background-color: #85CBC3;
+	color: #fff;
+	width: 260px;
+	height: 80px;
+	border: none;
+	position: absolute;
+	top: 51px;
+	left: 576px;
+}
+
+/* footer socials */
 #footer-social {
 	grid-column: 11/-1;
+	margin-top: 50px;
 }
 
 #footer-social img {
 	height: 58px;
 }
+
+
+
+
 
 /* gallery page */
 
@@ -403,4 +451,14 @@ textarea {
 	background-color: #DFDAF1;
 	grid-column: span 4 / span 4;
 	margin-bottom: 20px;
+}
+
+.text-con {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.img-text {
+	margin: 0;
+	padding: 0;
 }

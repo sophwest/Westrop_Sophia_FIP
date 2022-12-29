@@ -1,4 +1,6 @@
 # pvcjunkie.com - A place to share my love for collecting
+"pvcjunkie is a website dedicated to my hobby and love for collecting anime figures and merchandise. I share photos, blog about the hobby, and post news about upcoming figures!"
+
  Two desktop and two mobile pages for my fake (maybe some day real...?) website dedicated to figure collecting. Featuring my own photography of my collection. Also features my own drawings because I curl up like a bug if I don't draw for too long, and I was due.  
  (Sophia Westrop's IDP Term 1 Final Integrated Project)
 
@@ -22,7 +24,8 @@ All photography and the namesake are not for use.
 12/24/2022 - Added files to repo, edited readme to reflect the whole journey of the FIP
 12/26/2022 - Hunkered down to code and panicked at how much time I lost and had left. Was filled with determination, and Christmas chocolate. Began to code HTML for the desktop pages, putting in semantic tagging and populated content.
 12/27/2022 - Continued to work on HTML on desktop pages, added contact form and newsletter form. Began CSS for desktop pages- gave everything it's colours and what styling I could. Got layout mostly correct with just a few elements needing adjustment.
-12/28/2022 - Successfully styled the form! Finished positioning elements and began to build mobile pages.
+12/28/2022 - Successfully styled the form! 
+12/29/2022 - Finished positioning elements correctly, styled newsletter sign up correctly, and other finishing touches, and thus completed desktop pages.
 
 ## Credits
 
@@ -30,6 +33,7 @@ Sophia Westrop
 All photography featured on these pages was taken and edited by yours truly
 Huge shoutout to the profs for their outstanding compassion during the past 3 months!!
 The fat pink bunny in the background of one of my photos was a paid actor
+Dan Singer for being a huge help and moral support throughout this term!
 
 ## License
 
