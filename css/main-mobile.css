@@ -219,6 +219,49 @@ span:hover {
 #contact-form {
 	grid-column: 1/-1;
 	background-color: #B5EAD8;
+	margin-left: -20px;
+	width: 428px;
+	padding-top: 50px;
+}
+
+.form-style {
+	font-family: inherit;
+	font-size: 26px;
+	color: #FDC7C7;
+	border: none;
+	margin-left: 40px;
+	margin-top: 16px;
+	padding: 16px;
+}
+
+#name, #email {
+	width: 315px;
+}
+
+select {
+	background-color: #fff;
+	width: 347px;
+}
+
+textarea { 
+	width: 315px;
+	height: 190px;
+	max-width: 315px;
+	max-height: 190px;
+}
+
+.form-button {
+	font-family: inherit;
+	font-size: 26px;
+	background-color: #85CBC3;
+	display: flex;
+	color: #fff;
+	width: 184px;
+	height: 45px;
+	border: none;
+	margin-top: 55px;
+	margin-bottom: 50px;
+	margin-left: 40px;
 }
 
 /*Common page elements  */
@@ -262,8 +305,8 @@ span:hover {
 	font-size: 26px;
 	background-color: #85CBC3;
 	color: #fff;
-	width: 178px;
-	height: 37px;
+	width: 184px;
+	height: 45px;
 	border: none;
 	margin-top: 23px;
 }
