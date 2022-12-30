@@ -25,7 +25,7 @@ All photography and the namesake are not for use.
 12/26/2022 - Hunkered down to code and panicked at how much time I lost and had left. Was filled with determination, and Christmas chocolate. Began to code HTML for the desktop pages, putting in semantic tagging and populated content.
 12/27/2022 - Continued to work on HTML on desktop pages, added contact form and newsletter form. Began CSS for desktop pages- gave everything it's colours and what styling I could. Got layout mostly correct with just a few elements needing adjustment.
 12/28/2022 - Successfully styled the form! 
-12/29/2022 - Finished positioning elements correctly, styled newsletter sign up correctly, and other finishing touches, and thus completed desktop pages. Started working on mobile pages!
+12/29/2022 - Finished positioning elements correctly, styled newsletter sign up correctly, and other finishing touches, and thus completed desktop pages. Did basic HTML for mobile pages and started CSS.
 
 ## Credits
 
