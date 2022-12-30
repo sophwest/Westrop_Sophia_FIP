@@ -81,7 +81,7 @@ you work on and the intended audience */
 }
 
 .logo:hover { 
-	height: 82px;
+	transform: scale(1.05);
 	transition: all 0.3s ease-in-out; 
 }
 
@@ -132,7 +132,7 @@ you work on and the intended audience */
 }
 
 .social-icons img:hover { 
-	height: 60px;
+	transform: scale(1.05);
 	transition: all 0.3s ease-in-out; 
 }
 
@@ -319,9 +319,8 @@ you work on and the intended audience */
 	padding: 16px;
 }
 
-input:focus, select:focus, textarea:focus {
-	outline: 2px solid;
-	outline-color: #E16388;
+.form-style input:focus, select:focus, textarea:focus, #news-email:focus {
+	outline: 2px solid #E16388;
 }
 
 #name, #email {
@@ -432,7 +431,8 @@ textarea {
 }
 
 #footer-social img:hover { 
-	height: 60px;
+	/* height: 60px; */
+	transform: scale(1.05);
 	transition: all 0.3s ease-in-out; 
 }
 
@@ -476,6 +476,10 @@ textarea {
 	border-radius: 50%;
 	margin: 5px;
 	cursor: pointer;
+}
+
+.dot:active {
+	background-color: #FDC7C7;
 }
 
 .current {
