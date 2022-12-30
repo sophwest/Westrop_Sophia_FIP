@@ -313,6 +313,7 @@ textarea {
 
 /* gallery page */
 
+/* hero section */
 #hero-gallery-con {
 	background-color: #aaaaaa;
 	background: url("../images/hero-gallery-effie-mob.jpg");
@@ -321,7 +322,16 @@ textarea {
 
 #hero-gallery-text {
 	grid-column: 1/-1;
-	margin-top: 20px;
+	color: #fff;
+}
+
+#hero-gallery-text h2 {
+	font-size: 48px;
+}
+
+#hero-gallery-text p {
+	font-size: 28px;
+	margin-bottom: 40px;
 }
 
 #gallery-controls {
@@ -333,24 +343,48 @@ textarea {
 }
 
 .dot {
-	background-color: #dddddd;
+	background-color: #ffffff;
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
 	margin: 5px;
   }
 
+  /* full gallery */
 #gallery h2 {
 	text-align: center;
 	grid-column: 1/-1;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	color: #E16388;
+	font-size: 48px;
+}
+
+#gallery h3 {
+	font-size: 40px;
+}
+
+#gallery h4 {
+	font-size: 30px;
+}
+
+.text-con {
+	margin-top: 30px;
+	margin-bottom: 90px;
+	text-align: center;
+}
+
+.img-text {
+	color: #6F538D;
+	margin: 0px;
 }
 
 .gallery-box {
 	grid-column: 1/-1;
-	background-color: #ddd;
+	width: 428px;
+	background-color: #DFDAF1;
 	margin-bottom: 20px;
+	margin-left: -20px;
 }
 
 #footer-newsletter2 {
