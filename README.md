@@ -26,7 +26,7 @@ All photography and the namesake are not for use.
 12/27/2022 - Continued to work on HTML on desktop pages, added contact form and newsletter form. Began CSS for desktop pages- gave everything it's colours and what styling I could. Got layout mostly correct with just a few elements needing adjustment.
 12/28/2022 - Successfully styled the form! 
 12/29/2022 - Finished positioning elements correctly, styled newsletter sign up correctly, and other finishing touches, and thus completed desktop pages. Did basic HTML for mobile pages and started and finished basic styling for mobile homepage. A very productive day!
-12/30/2022 - Finished basic CSS for mobile gallery! Thus, done all four pages!!! Added more hover states and little animations to desktop pages, changed outline of active input fields, made minor changes to mobile CSS.
+12/30/2022 - Finished basic CSS for mobile gallery! Thus, done all four pages!!! Added more hover states and little animations to desktop pages, changed outline of active input fields. **Added interactivity to mobile pages by making things respond to being clicked rather than hovered over, since it's for mobile.**
 
 ## Credits
 
