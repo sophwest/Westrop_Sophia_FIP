@@ -250,7 +250,7 @@ textarea {
 	max-height: 190px;
 }
 
-.form-button {
+#form-button {
 	font-family: inherit;
 	font-size: 26px;
 	background-color: #85CBC3;
