@@ -509,7 +509,7 @@ textarea {
 	font-size: 40px;
 }
 
-  #gallery h3 {
+#gallery h3 {
 	grid-column: 1/-1;
 	text-align: center;
 	color: #6F538C;
@@ -530,4 +530,65 @@ textarea {
 .img-text {
 	margin: 0;
 	padding: 0;
+}
+
+/* lightboxes */
+.lightbox {
+    display: none;
+    width: 100vw; /* viewport width = width of the browser window*/
+    height: 100vh; /* viewport height = height of the browser window*/
+    position: fixed;
+    top: 0;
+    left: 0;
+	bottom: 0;
+	right: 0;
+    background-color: rgba(10, 0, 20, 0.95);  
+    background-repeat: no-repeat;
+
+    z-index: 5000;
+}
+
+.lb_close {
+    color: #E16388;
+    font-size: 50px;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: 95%;
+    font-weight: bold;
+}
+
+.lb_close:hover { 
+	color: #FDC7C7;
+}
+
+.lightbox article {
+    padding-top: 50px;
+	margin-top: 30%;
+	text-align: center;
+}
+
+.lb_heading { 
+	font-size: 30px;
+	color: #E16388;
+	margin: 0;
+}
+
+.lb_text { 
+    line-height: 1;
+    padding-top: 20px;
+	font-size: 22px;
+	color: #fff;
+	margin: 0;
+}
+
+#lightboxR1C1 {
+    background-image: url("../images/gallery-r1c1-effie-desk.jpg");
+    background-position: center;
+    background-size: 70vh;
+}
+
+/* toggle the lightbox on */
+.lightbox:target { 
+	display:block;
 }
