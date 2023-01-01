@@ -30,7 +30,7 @@
         <main>
             <div id="hero-gallery-con">
                 <div class="grid-con">
-                    <article id="hero-gallery-text" class="box-color">
+                    <article id="hero-gallery-text">
                         <h2>Photography Gallery</h2>
                         <p>I use a Canon EOS Rebel XSI to take my photos and I fix them up in Adobe Photoshop.</p>
                     </article>
@@ -44,54 +44,69 @@
 
             <section class="grid-con" id="gallery">
                 <h2>Full Gallery</h2>
+
+                <!-- this stops the page from snapping back to the top after closing a lightbox -->
+                <a href="" id="no-scroll" class="hidden">dont move pls</a>
                 
                 <article class="gallery-box">
-                    <img src="images/gallery-img1-effie-mob.jpg" alt="effie trading figure">
-                    <div class="text-con">
-                        <h3 class="img-text">Effie</h3>
-                        <h4 class="img-text">Street Fighter III</h4>
-                        <h4 class="img-text">Yamato</h4>
-                    </div>
+                    <a href="#lightbox1">
+                        <img src="images/gallery-img1-effie-mob.jpg" alt="effie trading figure">
+                        <div class="text-con">
+                            <h3 class="img-text">Effie</h3>
+                            <h4 class="img-text">Street Fighter III</h4>
+                            <h4 class="img-text">Yamato</h4>
+                        </div>
+                    </a>
                 </article>
                 <article class="gallery-box">
-                    <img src="images/gallery-img2-aries-mob.jpg" alt="black aries figure">
-                    <div class="text-con">
-                        <h3 class="img-text">Black Aries</h3>
-                        <h4 class="img-text">Djibril</h4>
-                        <h4 class="img-text">Alter</h4>
-                    </div>
+                    <a href="#lightbox2">
+                        <img src="images/gallery-img2-aries-mob.jpg" alt="black aries figure">
+                        <div class="text-con">
+                            <h3 class="img-text">Black Aries</h3>
+                            <h4 class="img-text">Djibril</h4>
+                            <h4 class="img-text">Alter</h4>
+                        </div>
+                    </a>
                 </article>
                 <article class="gallery-box">
-                    <img src="images/gallery-img3-lotte-mob.jpg" alt="lotte figure kotobukiya">
-                    <div class="text-con">
-                        <h3 class="img-text">Astarotte Ygvar</h3>
-                        <h4 class="img-text">Astarotte no Omocha!</h4>
-                        <h4 class="img-text">Kotobukiya</h4>
-                    </div>
+                    <a href="#lightbox3">
+                        <img src="images/gallery-img3-lotte-mob.jpg" alt="lotte figure kotobukiya">
+                        <div class="text-con">
+                            <h3 class="img-text">Astarotte Ygvar</h3>
+                            <h4 class="img-text">Astarotte no Omocha!</h4>
+                            <h4 class="img-text">Kotobukiya</h4>
+                        </div>
+                    </a>
                 </article>
                 <article class="gallery-box">
-                    <img src="images/gallery-img4-hiiragis-mob.jpg" alt="tsukasa and kagami hiiragi prize figures">
-                    <div class="text-con">
-                        <h3 class="img-text">Kagami & Tsukasa</h3>
-                        <h4 class="img-text">Lucky☆Star</h4>
-                        <h4 class="img-text">SEGA</h4>
-                    </div>
+                    <a href="#lightbox4">
+                        <img src="images/gallery-img4-hiiragis-mob.jpg" alt="tsukasa and kagami hiiragi prize figures">
+                        <div class="text-con">
+                            <h3 class="img-text">Kagami & Tsukasa</h3>
+                            <h4 class="img-text">Lucky☆Star</h4>
+                            <h4 class="img-text">SEGA</h4>
+                        </div>
+                    </a>
                 </article>
                 <article class="gallery-box">
-                    <img src="images/gallery-img5-remiflan-mob.jpg" alt="remilia and flandre prize figures">
-                    <div class="text-con">
-                        <h3 class="img-text">Remilia and Flandre</h3>
-                        <h4 class="img-text">Touhou Project</h4>
-                        <h4 class="img-text">SEGA</h4>
-                    </div>
+                    <a href="#lightbox5">
+                        <img src="images/gallery-img5-remiflan-mob.jpg" alt="remilia and flandre prize figures">
+                        <div class="text-con">
+                            <h3 class="img-text">Remilia and Flandre</h3>
+                            <h4 class="img-text">Touhou Project</h4>
+                            <h4 class="img-text">SEGA</h4>
+                        </div>
+                    </a>
                 </article>
                 <article class="gallery-box">
-                    <img src="images/gallery-img6-elin-mob.jpg" alt="elin sorcerer figure">
-                    <div class="text-con">
-                        <h3 class="img-text">Elin Sorcerer</h3>
-                        <h4 class="img-text">TERA Online</h4>
-                        <h4 class="img-text">Arcadia</h4>
-                    </div>
+                    <a href="#lightbox6">
+                        <img src="images/gallery-img6-elin-mob.jpg" alt="elin sorcerer figure">
+                        <div class="text-con">
+                            <h3 class="img-text">Elin Sorcerer</h3>
+                            <h4 class="img-text">TERA Online</h4>
+                            <h4 class="img-text">Arcadia</h4>
+                        </div>
+                    </a>
                 </article>
             </section>              
         </main>
@@ -111,6 +126,85 @@
                 </aside> 
             </footer>
         </div>
+
+        <!-- lightboxes  -->
+        <section class="lightbox" id="lightbox1">
+            <a href="#no-scroll" class="lb_close">x</a>
+            <article>
+                <h3 class="lb_heading">Effie - Street Fighter III - by Yamato</h3>
+                <p class="lb_text">
+                    A little rarity from 2005, and I got her for only $5 at a convention. Sticky due to age, but I love her.
+                </p>
+                <p class="lb_text">
+                    I think this photo is my number one fav from all the photography in this gallery!
+                </p>
+            </article>
+        </section>
+
+        <section class="lightbox" id="lightbox2">
+            <a href="#no-scroll" class="lb_close">x</a>
+            <article>
+                <h3 class="lb_heading">Black Aries - Djibril - by Alter</h3>
+                <p class="lb_text">
+                    In the two years I stopped collecting due to college being expensive, she was the one figure I bought. 
+                </p>
+                <p class="lb_text">
+                    I had been looking for her for so long, I just couldn't pass up the opportunity! No regrets.
+                </p>
+            </article>
+        </section>
+
+        <section class="lightbox" id="lightbox3">
+            <a href="#no-scroll" class="lb_close">x</a>
+            <article>
+                <h3 class="lb_heading">Asarotte Ygvar - Astarotte no Omocha! - by Kotobukiya</h3>
+                <p class="lb_text">
+                    Probably one of my favourite figures of all time. Amazing quality and such a cute pose!
+                </p>
+                <p class="lb_text">
+                    I have always loved Lotte's design, and this figure brings it to life so well!
+                </p>
+            </article>
+        </section>
+
+        <section class="lightbox" id="lightbox4">
+            <a href="#no-scroll" class="lb_close">x</a>
+            <article>
+                <h3 class="lb_heading">Kagami and Tsukasa Hiiragi - Lucky☆Star - by SEGA</h3>
+                <p class="lb_text">
+                    Two lovely figures in my Lucky☆Star collection. A prize figure pair.  
+                </p>
+                <p class="lb_text">
+                    I got Tsukasa in 2013, and it took me until early this year to finally get Kagami!
+                </p>
+            </article>
+        </section>
+
+        <section class="lightbox" id="lightbox5">
+            <a href="#no-scroll" class="lb_close">x</a>
+            <article>
+                <h3 class="lb_heading">Remilia and Flandre Scarlet - Touhou - by SEGA</h3>
+                <p class="lb_text">
+                    My fav vampire sisters as adorable prize figures. Great quality and detail!  
+                </p>
+                <p class="lb_text">
+                    I ordered these two during quarantine 2020, and it took over a year for them to arrive in the mail!
+                </p>
+            </article>
+        </section>
+
+        <section class="lightbox" id="lightbox6">
+            <a href="#no-scroll" class="lb_close">x</a>
+            <article>
+                <h3 class="lb_heading">Elin Sorcerer - TERA - by Arcadia</h3>
+                <p class="lb_text">
+                    Arguably the highest quality figure in my collection. Defintely the biggest at 28cm tall!  
+                </p>
+                <p class="lb_text">
+                    She was one of my grails since early high school, and I finally folded and spent the money to get her this past summer!!!
+                </p>
+            </article>
+        </section>
     </div> 
 </body>
 </html>

@@ -439,7 +439,91 @@ textarea {
 
 #footer-newsletter2 {
 	margin-top: 20px;
-	height:40px;
+	height: 40px;
 	grid-column: 1/3;
 	background-color: #ddd;
+}
+
+/* lightboxes */
+.lightbox {
+    display: none;
+	position: fixed;
+    top: 0;
+	bottom: 0;
+    background-color: rgba(10, 0, 20, 0.95);  
+    background-repeat: no-repeat;
+	width: 428px;
+
+    z-index: 5000;
+}
+
+.lb_close {
+    color: #E16388;
+    font-size: 50px;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: 90%;
+    font-weight: bold;
+	grid-column: 1/-1;
+}
+
+.lb_close:hover { 
+	color: #FDC7C7;
+}
+
+.lightbox article {
+	margin-top: 125%;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.lb_heading { 
+	font-size: 30px;
+	color: #E16388;
+	margin: 0;
+}
+
+.lb_text { 
+    line-height: 1;
+    padding-top: 10px;
+	font-size: 22px;
+	color: #fff;
+	margin: 0;
+}
+
+#lightbox1 {
+    background-image: url("../images/lbimg1-effie-mob.jpg");
+    background-position: left 50% top 25%;
+}
+
+#lightbox2 {
+    background-image: url("../images/lbimg2-blkaries-mob.jpg");
+    background-position: left 50% top 25%;
+}
+
+#lightbox3 {
+    background-image: url("../images/lbimg3-lotte-mob.jpg");
+    background-position: left 50% top 25%;
+}
+
+#lightbox4 {
+    background-image: url("../images/lbimg4-hiiragis-mob.jpg");
+    background-position: left 50% top 25%;
+}
+
+#lightbox5 {
+    background-image: url("../images/lbimg5-remiflan-mob.jpg");
+    background-position: left 50% top 25%;
+}
+
+#lightbox6 {
+    background-image: url("../images/lbimg6-elin-mob.jpg");
+    background-position: left 50% top 25%;
+}
+
+/* toggle the lightbox on */
+.lightbox:target { 
+	display:block;
 }
