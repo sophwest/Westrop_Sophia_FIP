@@ -563,8 +563,8 @@ textarea {
 }
 
 .lightbox article {
-    padding-top: 50px;
-	margin-top: 30%;
+    /* padding-top: 50px; */
+	margin-top: 35%;
 	text-align: center;
 }
 
@@ -576,16 +576,85 @@ textarea {
 
 .lb_text { 
     line-height: 1;
-    padding-top: 20px;
+    padding-top: 10px;
 	font-size: 22px;
 	color: #fff;
 	margin: 0;
 }
 
 #lightboxR1C1 {
-    background-image: url("../images/gallery-r1c1-effie-desk.jpg");
-    background-position: center;
-    background-size: 70vh;
+    background-image: url("../images/lbimg-r1c1-effie-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR1C2 {
+    background-image: url("../images/lbimg-r1c2-blkaries-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR1C3 {
+    background-image: url("../images/lbimg-r1c3-lotte-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR2C1 {
+    background-image: url("../images/lbimg-r2c1-hiiragis-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR2C2 {
+    background-image: url("../images/lbimg-r2c2-remiflan-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR2C3 {
+    background-image: url("../images/lbimg-r2c3-elin-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR3C1 {
+    background-image: url("../images/lbimg-r3c1-leukothea-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR3C2 {
+    background-image: url("../images/lbimg-r3c2-kuroneko-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR3C3 {
+    background-image: url("../images/lbimg-r3c3-kuroneko-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR4C1 {
+    background-image: url("../images/lbimg-r4c1-lotte-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR4C2 {
+    background-image: url("../images/lbimg-r4c2-meruru-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR4C3 {
+    background-image: url("../images/lbimg-r4c3-maryan-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR5C1 {
+    background-image: url("../images/lbimg-r5c1-elin-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR5C2 {
+    background-image: url("../images/lbimg-r5c2-konata-desk.jpg");
+    background-position: left 50% top 30%;
+}
+
+#lightboxR5C3 {
+    background-image: url("../images/lbimg-r5c3-maryan-desk.jpg");
+    background-position: left 50% top 30%;
 }
 
 /* toggle the lightbox on */
