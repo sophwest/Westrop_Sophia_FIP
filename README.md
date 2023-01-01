@@ -28,6 +28,7 @@ All photography and the namesake are not for use.
 ***12/29/2022*** - Finished positioning elements correctly, styled newsletter sign up correctly, and other finishing touches, and thus completed desktop pages. Did basic HTML for mobile pages and started and finished basic styling for mobile homepage. A very productive day!  
 ***12/30/2022*** - Finished basic CSS for mobile gallery! Thus, done the basis for all four pages!!! Added more hover states and little animations to desktop pages, changed outline of active input fields. Added interactivity to mobile pages by making things respond to being clicked rather than hovered over, since it's for mobile. Touched up all the little animations.
 ***12/31/2022*** - Added lightboxes to desktop and mobile galleries, added in the images for the lightboxes, and thats a wrap! Happy New Year!
+***01/01/2023*** - Just kidding, noticed two small things I needed to fix. NOOWWW it's done. HAPPY NEW YEAR!
 
 ## Credits
 
