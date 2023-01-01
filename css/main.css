@@ -335,7 +335,7 @@ you work on and the intended audience */
 	padding: 16px;
 }
 
-.form-style input:focus, select:focus, textarea:focus, #news-email:focus {
+.form-style input:focus, select:focus, textarea:focus, #news-email:focus, #name:focus, #email:focus {
 	outline: 2px solid #E16388;
 }
 
